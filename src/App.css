@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.headerL{
+  display: flex;
+  position: fixed;
+  background-color:white;
+  justify-content: space-around;
+  height: 100px;
+  width:100%;
+  z-index: 1;
+}
+
+.headerL .btn-inicio{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  cursor:'pointer';
+  background-color:black;
+  color:white;
+  border-radius:100px;
+  width: 100px;
+}
+
+.headerL .btn-h{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  color:black;
+  border-radius:100px;
+  width: 100px;
+  
+}
+
+.dv-input{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:70%;
+  
+}
+.inputHeader{
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  border:transparent;
+  border-radius: 50px;
+  background-color:rgb(228, 228, 228);
+  height:50%;
+  width: 100%;
+  font-size:20px;
+  cursor:-moz-zoom-in;
+}
+
+.inputHeader:hover{
+  background-color:rgb(190, 190, 190);
+}
+
+.icon-bell{
+  justify-content:space-around;
+  width: 200px;
+  cursor:'pointer';
+}
+
+.bell:hover{
+  background-color:rgb(175, 174, 174);
+  border-radius:50%;
+  
+}
+
+.comment:hover{
+  background-color:rgb(175, 174, 174);
+  border-radius:50%;
+}
+
+.icon-pinterest{
+  align-items:center;
+  justify-content: center;
+  
+}
+
+
+
+.btn-hov:hover{
+opacity: 1; 
+
+}
+
+
+button:hover{
+  opacity: 1;
+  
+}
+
+.btn-guardar:hover{
+background-color: rgb(122, 14, 247);
+}
+
+.img-onHover{
+  opacity: 0.7;
+}
+
+.btn-puntos:hover{
+  background-color:rgb(214, 0, 0) ;
+}
+.btn-h:hover{
+  background-color:gray;
+}
